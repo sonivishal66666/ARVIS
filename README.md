@@ -1,12 +1,12 @@
-**Serverless Online Ticketing System**
+# **Serverless Online Ticketing System**
 
-**Overview**
+## **Overview**
 
 This project is a serverless online ticketing system that provides a seamless booking experience for various modes of transport and events. The system integrates a secure payment gateway using Cashfree and is fully implemented in PHP. It employs Google Cloud Run to ensure a serverless and scalable environment, making it cost-effective and efficient. The application is backed by a MySQL database and includes a Dockerfile for easy runtime deployment.
             
-**Features**
+## **Features**
 
-**Serverless Architecture**: Deployed using Google Cloud Run, eliminating the need for manual server management.
+**Serverless Architecture** : Deployed using Google Cloud Run, eliminating the need for manual server management.
 
 **Integrated Payment Gateway**: Secure and reliable payment processing via Cashfree.
 
@@ -18,29 +18,29 @@ This project is a serverless online ticketing system that provides a seamless bo
 
 **Dockerized Deployment**: Simplifies deployment and runtime environment setup.
 
-Tech Stack
+## **Tech Stack**
 
-**Frontend & Backend: PHP
+**Frontend & Backend**: PHP
 
-Database: MySQL
+**Database:** MySQL
 
-Payment Gateway: Cashfree
+**Payment Gateway:** Cashfree
 
-Cloud Platform: Google Cloud Run
+**Cloud Platform:** Google Cloud Run
 
-Containerization: Docker**
+**Containerization:** Docker
 
-Installation & Setup
+# Installation & Setup
 
-Prerequisites
+# Prerequisites
 
-Install Docker.
+**Install Docker.**
 
 Set up a MySQL database and configure the credentials.
 
 Ensure you have access to Google Cloud Platform (GCP) and enable Cloud Run.
 
-Steps
+# Steps
 
 Clone the repository from GitHub:
 
@@ -58,15 +58,15 @@ Run the Docker container:
 
 ` docker run -p 8080:8080 ticketing-system` 
 
-Deploy to Google Cloud Run:
+# Deploy to Google Cloud Run:
 
-Push the Docker image to Google Container Registry (GCR).
+**Push the Docker image to Google Container Registry (GCR).**
 
-Deploy the image to Cloud Run following GCP documentation.
+**Deploy the image to Cloud Run following GCP documentation.**
 
-Access the application in your browser using the URL provided by Cloud Run.
+**Access the application in your browser using the URL provided by Cloud Run.**
 
-Usage
+# Usage
 
 Visit the homepage to explore available bookings.
 
@@ -74,11 +74,11 @@ Use the integrated payment gateway for secure transactions.
 
 Admins can log in to the admin panel for system management.
 
-Contributions
+# Contributions
 
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+# Fork the repository.
 
 Create a feature branch:
 
@@ -88,10 +88,11 @@ Commit your changes and push to your fork.
 
 Submit a pull request detailing the changes made.
 
-Contact
+# Contact
 
 For queries or support, please contact:
-
+**
 Vishal Soni
 
 Email: vishalsoni6350@gmail.com
+**
